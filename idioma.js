@@ -72,6 +72,8 @@ const traducoes = {
       "Um espaço para guardar nossas lembranças antes e depois do casamento.",
     voltarSite: "Voltar ao site",
 
+    historiaTitulo: "Nossa história",
+
     nossasFotosTitulo: "Nossas fotos",
     nossasFotosTexto:
       "Algumas lembranças nossas antes do grande dia.",
@@ -158,6 +160,8 @@ const traducoes = {
     galeriaSubtitulo:
       "A place to keep our memories from before and after the wedding.",
     voltarSite: "Back to the website",
+
+    historiaTitulo: "Our story",
 
     nossasFotosTitulo: "Our photos",
     nossasFotosTexto:
