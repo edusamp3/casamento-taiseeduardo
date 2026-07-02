@@ -677,19 +677,26 @@
         padding: 24px 18px;
       }
     }
-    /* CONTAGEM REGRESSIVA DO CASAMENTO */
+        /* CONTAGEM REGRESSIVA DO CASAMENTO */
+
+    .countdown-section {
+      background: rgba(255, 255, 255, 0.28);
+    }
 
     .wedding-countdown {
       width: 100%;
-      max-width: 560px;
+      max-width: 620px;
 
-      margin: 24px auto 0;
+      margin: 0 auto;
     }
 
     .countdown-title {
-      margin-bottom: 12px;
+      margin-bottom: 24px;
 
-      font-size: 17px;
+      color: var(--text);
+
+      font-size: 26px;
+      font-weight: 700;
       letter-spacing: 2px;
       text-transform: uppercase;
     }
@@ -697,33 +704,38 @@
     .countdown-grid {
       display: grid;
       grid-template-columns: repeat(4, minmax(62px, 1fr));
-      gap: 10px;
+      gap: 12px;
     }
 
     .countdown-item {
-      padding: 14px 8px;
+      padding: 20px 10px;
 
-      background: rgba(255, 255, 255, 0.16);
-      border: 1px solid rgba(255, 255, 255, 0.4);
-      border-radius: 16px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
 
-      backdrop-filter: blur(4px);
+      box-shadow: 0 5px 18px rgba(43, 33, 24, 0.07);
     }
 
     .countdown-number {
       display: block;
 
-      font-size: 32px;
-      font-weight: 600;
+      color: var(--accent);
+
+      font-size: 36px;
+      font-weight: 700;
       line-height: 1;
     }
 
     .countdown-label {
       display: block;
 
-      margin-top: 7px;
+      margin-top: 9px;
 
-      font-size: 12px;
+      color: var(--text);
+
+      font-size: 13px;
+      font-weight: 600;
       letter-spacing: 0.7px;
       text-transform: uppercase;
     }
@@ -731,31 +743,34 @@
     .countdown-finished {
       margin-top: 24px;
 
+      color: var(--text);
+
       font-size: 25px;
-      font-weight: 600;
+      font-weight: 700;
     }
 
     @media (max-width: 500px) {
-      .wedding-countdown {
-        margin-top: 20px;
-      }
-
       .countdown-grid {
         gap: 6px;
       }
 
+      .countdown-title {
+        margin-bottom: 18px;
+        font-size: 22px;
+      }
+
       .countdown-item {
-        padding: 12px 4px;
+        padding: 16px 4px;
         border-radius: 13px;
       }
 
       .countdown-number {
-        font-size: 26px;
+        font-size: 27px;
       }
 
       .countdown-label {
         font-size: 10px;
-        letter-spacing: 0.3px;
+        letter-spacing: 0.2px;
       }
     }
   </style>
