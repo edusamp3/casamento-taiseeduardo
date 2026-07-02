@@ -14,6 +14,12 @@ const traducoes = {
     fraseAmor: "O amor sempre",
     fraseCaminho: "encontra o caminho",
     dataLocal: "26/09 · Arembepe, Bahia",
+    contagemTitulo: "Faltam",
+    contagemDias: "dias",
+    contagemHoras: "horas",
+    contagemMinutos: "minutos",
+    contagemSegundos: "segundos",
+    contagemFinalizada: "Hoje é o nosso grande dia!",
 
     nossoDiaTitulo: "Nosso dia",
     nossoDiaTexto1:
@@ -94,6 +100,13 @@ const traducoes = {
     fraseAmor: "Love always",
     fraseCaminho: "finds a way",
     dataLocal: "September 26 · Arembepe, Bahia",
+
+    contagemTitulo: "Time until our wedding",
+    contagemDias: "days",
+    contagemHoras: "hours",
+    contagemMinutos: "minutes",
+    contagemSegundos: "seconds",
+    contagemFinalizada: "Today is our big day!",
 
     nossoDiaTitulo: "Our day",
     nossoDiaTexto1:

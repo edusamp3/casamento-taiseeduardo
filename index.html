@@ -677,8 +677,91 @@
         padding: 24px 18px;
       }
     }
+    /* CONTAGEM REGRESSIVA DO CASAMENTO */
+
+    .wedding-countdown {
+      width: 100%;
+      max-width: 560px;
+
+      margin: 24px auto 0;
+    }
+
+    .countdown-title {
+      margin-bottom: 12px;
+
+      font-size: 17px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .countdown-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(62px, 1fr));
+      gap: 10px;
+    }
+
+    .countdown-item {
+      padding: 14px 8px;
+
+      background: rgba(255, 255, 255, 0.16);
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      border-radius: 16px;
+
+      backdrop-filter: blur(4px);
+    }
+
+    .countdown-number {
+      display: block;
+
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 1;
+    }
+
+    .countdown-label {
+      display: block;
+
+      margin-top: 7px;
+
+      font-size: 12px;
+      letter-spacing: 0.7px;
+      text-transform: uppercase;
+    }
+
+    .countdown-finished {
+      margin-top: 24px;
+
+      font-size: 25px;
+      font-weight: 600;
+    }
+
+    @media (max-width: 500px) {
+      .wedding-countdown {
+        margin-top: 20px;
+      }
+
+      .countdown-grid {
+        gap: 6px;
+      }
+
+      .countdown-item {
+        padding: 12px 4px;
+        border-radius: 13px;
+      }
+
+      .countdown-number {
+        font-size: 26px;
+      }
+
+      .countdown-label {
+        font-size: 10px;
+        letter-spacing: 0.3px;
+      }
+    }
   </style>
 </head>
+
+
 
 <body>
   <nav>
@@ -790,6 +873,93 @@
         >
           26/09 · Arembepe, Bahia
         </div>
+      </div>
+
+      <div
+        id="contagemCasamento"
+        class="wedding-countdown"
+      >
+        <div
+          class="countdown-title"
+          data-i18n="contagemTitulo"
+        >
+          Faltam
+        </div>
+
+        <div class="countdown-grid">
+          <div class="countdown-item">
+            <span
+              id="contadorDias"
+              class="countdown-number"
+            >
+              0
+            </span>
+
+            <span
+              class="countdown-label"
+              data-i18n="contagemDias"
+            >
+              dias
+            </span>
+          </div>
+
+          <div class="countdown-item">
+            <span
+              id="contadorHoras"
+              class="countdown-number"
+            >
+              00
+            </span>
+
+            <span
+              class="countdown-label"
+              data-i18n="contagemHoras"
+            >
+              horas
+            </span>
+          </div>
+
+          <div class="countdown-item">
+            <span
+              id="contadorMinutos"
+              class="countdown-number"
+            >
+              00
+            </span>
+
+            <span
+              class="countdown-label"
+              data-i18n="contagemMinutos"
+            >
+              minutos
+            </span>
+          </div>
+
+          <div class="countdown-item">
+            <span
+              id="contadorSegundos"
+              class="countdown-number"
+            >
+              00
+            </span>
+
+            <span
+              class="countdown-label"
+              data-i18n="contagemSegundos"
+            >
+              segundos
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="mensagemGrandeDia"
+        class="countdown-finished"
+        data-i18n="contagemFinalizada"
+        style="display: none;"
+      >
+        Hoje é o nosso grande dia!
       </div>
     </header>
 
@@ -1115,6 +1285,81 @@
 
       heroSlides[currentHeroSlide].classList.add("active");
     }, 5000);
+    </script>
+    <script>
+    const dataDoCasamento =
+      new Date("2026-09-26T10:30:00-03:00").getTime();
+
+    const contadorDias =
+      document.getElementById("contadorDias");
+
+    const contadorHoras =
+      document.getElementById("contadorHoras");
+
+    const contadorMinutos =
+      document.getElementById("contadorMinutos");
+
+    const contadorSegundos =
+      document.getElementById("contadorSegundos");
+
+    const contagemCasamento =
+      document.getElementById("contagemCasamento");
+
+    const mensagemGrandeDia =
+      document.getElementById("mensagemGrandeDia");
+
+    let intervaloContagem = null;
+
+    function atualizarContagemCasamento() {
+      const agora = new Date().getTime();
+      const tempoRestante = dataDoCasamento - agora;
+
+      if (tempoRestante <= 0) {
+        contagemCasamento.style.display = "none";
+        mensagemGrandeDia.style.display = "block";
+
+        if (intervaloContagem !== null) {
+          clearInterval(intervaloContagem);
+        }
+
+        return;
+      }
+
+      const umSegundo = 1000;
+      const umMinuto = umSegundo * 60;
+      const umaHora = umMinuto * 60;
+      const umDia = umaHora * 24;
+
+      const dias =
+        Math.floor(tempoRestante / umDia);
+
+      const horas =
+        Math.floor((tempoRestante % umDia) / umaHora);
+
+      const minutos =
+        Math.floor((tempoRestante % umaHora) / umMinuto);
+
+      const segundos =
+        Math.floor((tempoRestante % umMinuto) / umSegundo);
+
+      contadorDias.textContent = dias;
+
+      contadorHoras.textContent =
+        String(horas).padStart(2, "0");
+
+      contadorMinutos.textContent =
+        String(minutos).padStart(2, "0");
+
+      contadorSegundos.textContent =
+        String(segundos).padStart(2, "0");
+    }
+
+    atualizarContagemCasamento();
+
+    if (new Date().getTime() < dataDoCasamento) {
+      intervaloContagem =
+        setInterval(atualizarContagemCasamento, 1000);
+    }
   </script>
 
   <script src="idioma.js"></script>
