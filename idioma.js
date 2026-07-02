@@ -45,9 +45,9 @@ const traducoes = {
       "Depois de escolher um item disponível na lista, pedimos que registre sua escolha no formulário. Assim, conseguimos atualizar a lista e evitar presentes repetidos.",
     escolhaBotao: "Registrar minha escolha",
 
-    pixTitulo: "Prefere nos presentear por PIX?",
+    pixTitulo: "Outra forma de nos presentear",
     pixTexto:
-      "Para quem preferir contribuir dessa forma, disponibilizamos algumas opções de valores. Basta abrir o aplicativo do seu banco e escanear o QR Code escolhido.",
+      "Cada gesto de carinho torna esse momento ainda mais especial para nós. Escolha a opção que preferir e escaneie o QR Code pelo aplicativo do seu banco.", 
     pixPresente: "Presente por PIX",
     pixValorLivre: "Qualquer valor",
     pixAguardando: "QR Code será adicionado em breve.",
@@ -132,9 +132,9 @@ const traducoes = {
       "After choosing an available item from the list, please register your choice in the form. This helps us keep the list updated and avoid duplicate gifts.",
     escolhaBotao: "Register my choice",
 
-    pixTitulo: "Would you prefer to send us a PIX gift?",
+    pixTitulo: "Another way to give us a gift",
     pixTexto:
-      "For those who prefer to contribute this way, we have provided a few amount options. Simply open your banking app and scan the QR Code of your choice.",
+      "Every gesture of affection makes this moment even more special to us. Choose the option you prefer and scan the QR Code using your banking app.",
     pixPresente: "PIX gift",
     pixValorLivre: "Any amount",
     pixAguardando: "The QR Code will be added soon.",
