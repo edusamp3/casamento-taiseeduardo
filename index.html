@@ -797,7 +797,7 @@
       inset: 0;
       z-index: 0;
 
-      background: #2b2118;
+      background: var(--background);
     }
 
     .historia-slide {
@@ -810,6 +810,7 @@
 
       opacity: 0;
       transform: scale(0.98);
+      filter: brightness(0.65);
 
       transition:
         opacity 1.6s ease,
@@ -826,7 +827,8 @@
       inset: 0;
       z-index: 1;
 
-      background: rgba(25, 18, 12, 0.48);
+      background: transparent;
+      pointer-events: none;
     }
 
     .historia-content {
