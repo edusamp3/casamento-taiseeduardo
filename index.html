@@ -1017,6 +1017,97 @@
       </div>
     </header>
 
+    <section class="countdown-section">
+      <div class="container">
+        <div
+          id="contagemCasamento"
+          class="wedding-countdown"
+        >
+          <div
+            class="countdown-title"
+            data-i18n="contagemTitulo"
+          >
+            Faltam
+          </div>
+
+          <div class="countdown-grid">
+            <div class="countdown-item">
+              <span
+                id="contadorDias"
+                class="countdown-number"
+              >
+                0
+              </span>
+
+              <span
+                class="countdown-label"
+                data-i18n="contagemDias"
+              >
+                dias
+              </span>
+            </div>
+
+            <div class="countdown-item">
+              <span
+                id="contadorHoras"
+                class="countdown-number"
+              >
+                00
+              </span>
+
+              <span
+                class="countdown-label"
+                data-i18n="contagemHoras"
+              >
+                horas
+              </span>
+            </div>
+
+            <div class="countdown-item">
+              <span
+                id="contadorMinutos"
+                class="countdown-number"
+              >
+                00
+              </span>
+
+              <span
+                class="countdown-label"
+                data-i18n="contagemMinutos"
+              >
+                minutos
+              </span>
+            </div>
+
+            <div class="countdown-item">
+              <span
+                id="contadorSegundos"
+                class="countdown-number"
+              >
+                00
+              </span>
+
+              <span
+                class="countdown-label"
+                data-i18n="contagemSegundos"
+              >
+                segundos
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          id="mensagemGrandeDia"
+          class="countdown-finished"
+          data-i18n="contagemFinalizada"
+          style="display: none;"
+        >
+          Hoje é o nosso grande dia!
+        </div>
+      </div>
+    </section>
+
     <section>
       <div class="container">
         <h2 data-i18n="nossoDiaTitulo">
@@ -1032,6 +1123,61 @@
         <p data-i18n="nossoDiaTexto2">
           Sua presença é muito especial para nós.
         </p>
+      </div>
+    </section>
+
+    <section
+      id="historia"
+      class="historia-section"
+    >
+      <div class="historia-slides">
+        <div
+          class="historia-slide active"
+          style="background-image: url('imagens/historia-1.png');"
+        ></div>
+
+        <div
+          class="historia-slide"
+          style="background-image: url('imagens/historia-2.png');"
+        ></div>
+
+        <div
+          class="historia-slide"
+          style="background-image: url('imagens/historia-3.png');"
+        ></div>
+
+        <div
+          class="historia-slide"
+          style="background-image: url('imagens/historia-4.png');"
+        ></div>
+      </div>
+
+      <div class="historia-overlay"></div>
+      <div class="historia-content">
+        <h2 data-i18n="historiaTitulo">
+          Nossa história
+        </h2>
+
+        <div class="historia-texto">
+          <p data-i18n="historiaTexto1">
+            Nos conhecemos nos corredores da Universidade Federal da Bahia.
+            Quem diria que a matemática faria uma ponte entre Minas e Bahia?
+            Desde então, nossa história foi construída entre encontros, saudade,
+            mudanças e muitos aprendizados.
+          </p>
+
+          <p data-i18n="historiaTexto2">
+            A distância nem sempre foi fácil, mas, diante de cada dificuldade,
+            amadurecemos juntos e escolhemos permanecer. Porque, mesmo quando
+            os quilômetros nos separavam, o nosso amor sempre foi maior.
+          </p>
+
+          <p data-i18n="historiaTexto3">
+            Agora, chegou o momento de encurtar de vez essa distância e realizar
+            um dos nossos maiores sonhos: construir uma vida lado a lado. Afinal,
+            o amor sempre encontra o caminho — e o nosso nos trouxe até o casamento.
+          </p>
+        </div>
       </div>
     </section>
 
@@ -1270,61 +1416,6 @@
       </div>
     </section>
 
-    <section
-      id="historia"
-      class="historia-section"
-    >
-      <div class="historia-slides">
-        <div
-          class="historia-slide active"
-          style="background-image: url('imagens/historia-1.png');"
-        ></div>
-
-        <div
-          class="historia-slide"
-          style="background-image: url('imagens/historia-2.png');"
-        ></div>
-
-        <div
-          class="historia-slide"
-          style="background-image: url('imagens/historia-3.png');"
-        ></div>
-
-        <div
-          class="historia-slide"
-          style="background-image: url('imagens/historia-4.png');"
-        ></div>
-      </div>
-
-      <div class="historia-overlay"></div>
-      <div class="historia-content">
-        <h2 data-i18n="historiaTitulo">
-          Nossa história
-        </h2>
-
-        <div class="historia-texto">
-          <p data-i18n="historiaTexto1">
-            Nos conhecemos nos corredores da Universidade Federal da Bahia.
-            Quem diria que a matemática faria uma ponte entre Minas e Bahia?
-            Desde então, nossa história foi construída entre encontros, saudade,
-            mudanças e muitos aprendizados.
-          </p>
-
-          <p data-i18n="historiaTexto2">
-            A distância nem sempre foi fácil, mas, diante de cada dificuldade,
-            amadurecemos juntos e escolhemos permanecer. Porque, mesmo quando
-            os quilômetros nos separavam, o nosso amor sempre foi maior.
-          </p>
-
-          <p data-i18n="historiaTexto3">
-            Agora, chegou o momento de encurtar de vez essa distância e realizar
-            um dos nossos maiores sonhos: construir uma vida lado a lado. Afinal,
-            o amor sempre encontra o caminho — e o nosso nos trouxe até o casamento.
-          </p>
-        </div>
-      </div>
-    </section>
-
     <section id="fotos">
       <div class="container">
         <h2 data-i18n="fotosTitulo">
@@ -1373,96 +1464,6 @@
           nosso casamento estarão no convite virtual. Lá, você poderá consultar
           tudo com calma sempre que precisar.
         </p>
-      </div>
-    </section>
-    <section class="countdown-section">
-      <div class="container">
-        <div
-          id="contagemCasamento"
-          class="wedding-countdown"
-        >
-          <div
-            class="countdown-title"
-            data-i18n="contagemTitulo"
-          >
-            Faltam
-          </div>
-
-          <div class="countdown-grid">
-            <div class="countdown-item">
-              <span
-                id="contadorDias"
-                class="countdown-number"
-              >
-                0
-              </span>
-
-              <span
-                class="countdown-label"
-                data-i18n="contagemDias"
-              >
-                dias
-              </span>
-            </div>
-
-            <div class="countdown-item">
-              <span
-                id="contadorHoras"
-                class="countdown-number"
-              >
-                00
-              </span>
-
-              <span
-                class="countdown-label"
-                data-i18n="contagemHoras"
-              >
-                horas
-              </span>
-            </div>
-
-            <div class="countdown-item">
-              <span
-                id="contadorMinutos"
-                class="countdown-number"
-              >
-                00
-              </span>
-
-              <span
-                class="countdown-label"
-                data-i18n="contagemMinutos"
-              >
-                minutos
-              </span>
-            </div>
-
-            <div class="countdown-item">
-              <span
-                id="contadorSegundos"
-                class="countdown-number"
-              >
-                00
-              </span>
-
-              <span
-                class="countdown-label"
-                data-i18n="contagemSegundos"
-              >
-                segundos
-              </span>
-            </div>
-          </div>
-        </div>
-
-        <div
-          id="mensagemGrandeDia"
-          class="countdown-finished"
-          data-i18n="contagemFinalizada"
-          style="display: none;"
-        >
-          Hoje é o nosso grande dia!
-        </div>
       </div>
     </section>
   </main>
