@@ -74,6 +74,21 @@ const traducoes = {
 
     historiaTitulo: "Nossa história",
 
+    historiaTexto1:
+      "Taís e eu nos conhecemos em Salvador, em 2019, quando eu estava começando o mestrado na UFBA e ela já estava quase terminando o dela. A gente se encontrou na universidade, conversou bem pouco e ficou por isso mesmo — até porque, naquela época, eu ainda namorava.",
+
+    historiaTexto2:
+      "Alguns meses depois, já solteiro, nos encontramos novamente… no Tinder. Taís ainda achava que eu estava namorando e, quando viu meu perfil, me deu um superlike naquele tom de “como assim você está aqui?”. Na cabeça dela, eu estava fazendo algo muito errado; o que ela não sabia era que meu relacionamento já tinha terminado havia alguns meses. No fim, o superlike que era para chamar minha atenção e cobrar explicações acabou funcionando melhor do que ela imaginava.",
+
+    historiaTexto3:
+      "Começamos a sair e, no início, eu era bem travado. Tanto que foi ela quem tomou a iniciativa e deu o nosso primeiro beijo. Em compensação, fui eu quem disse “eu te amo” primeiro.",
+
+    historiaTexto4:
+      "Por pouco, a gente não começou a namorar. Depois de alguns meses saindo, Taís decidiu que queria algo sério e me deu um ultimato. Como eu tinha acabado de sair de outro relacionamento, achei que ainda não estava pronto. Duas semanas depois, percebi que estava completamente errado, voltei atrás e pedi para ficarmos juntos.",
+
+    historiaTexto5:
+      "Desde então, seguimos construindo a nossa história entre risadas, mudanças, aprendizados e muito amor. E agora chegou a hora de escrever mais um capítulo: o nosso casamento.",
+
     nossasFotosTitulo: "Nossas fotos",
     nossasFotosTexto:
       "Algumas lembranças nossas antes do grande dia.",
@@ -162,6 +177,21 @@ const traducoes = {
     voltarSite: "Back to the website",
 
     historiaTitulo: "Our story",
+
+    historiaTexto1:
+      "Taís and I met in Salvador in 2019, when I was starting my master’s degree at UFBA and she was already close to finishing hers. We met at the university, barely talked and left it at that — especially because I was still in a relationship at the time.",
+
+    historiaTexto2:
+      "A few months later, already single, we met again… on Tinder. Taís still thought I had a girlfriend and, when she saw my profile, she gave me a Super Like in a kind of “What are you doing here?” way. In her mind, I was doing something very wrong; what she did not know was that my relationship had ended a few months earlier. In the end, the Super Like that was meant to get my attention and demand an explanation worked better than she could have imagined.",
+
+    historiaTexto3:
+      "We started going out and, at first, I was pretty reserved. So much so that she was the one who made the first move and gave me our first kiss. On the other hand, I was the first to say “I love you.”",
+
+    historiaTexto4:
+      "We almost never became a couple. After a few months of seeing each other, Taís decided she wanted something serious and gave me an ultimatum. Since I had recently come out of another relationship, I thought I was not ready. Two weeks later, I realized I was completely wrong, changed my mind and asked her to be with me.",
+
+    historiaTexto5:
+      "Since then, we have been building our story through laughter, changes, lessons and a lot of love. And now it is time to write another chapter: our wedding.",
 
     nossasFotosTitulo: "Our photos",
     nossasFotosTexto:
