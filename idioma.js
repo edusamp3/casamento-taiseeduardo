@@ -75,11 +75,14 @@ const traducoes = {
     historiaTitulo: "Nossa história",
 
     historiaTexto1:
-      "Dudu e eu nos conhecemos em Salvador, em 2019, quando fazíamos mestrado na UFBA. Algum tempo depois, nossos caminhos se cruzaram novamente e começamos a sair.",
+      "Nos conhecemos nos corredores da Universidade Federal da Bahia. Quem diria que a matemática faria uma ponte entre Minas e Bahia? Desde então, nossa história foi construída entre encontros, saudade, mudanças e muitos aprendizados.",
 
     historiaTexto2:
-      "Como ele era mais tímido, fui eu quem tomou a iniciativa do primeiro beijo. Em compensação, foi ele quem disse “eu te amo” primeiro. Depois de um breve desencontro, começamos a namorar e, desde então, seguimos construindo nossa história. Agora, chegou a hora de celebrar um novo capítulo: o nosso casamento.",
+      "A distância nem sempre foi fácil, mas, diante de cada dificuldade, amadurecemos juntos e escolhemos permanecer. Porque, mesmo quando os quilômetros nos separavam, o nosso amor sempre foi maior.",
 
+    historiaTexto3:
+      "Agora, chegou o momento de encurtar de vez essa distância e realizar um dos nossos maiores sonhos: construir uma vida lado a lado. Afinal, o amor sempre encontra o caminho — e o nosso nos trouxe até o casamento.",
+    
     nossasFotosTitulo: "Nossas fotos",
     nossasFotosTexto:
       "Algumas lembranças nossas antes do grande dia.",
@@ -170,10 +173,13 @@ const traducoes = {
     historiaTitulo: "Our story",
 
     historiaTexto1:
-      "Dudu and I met in Salvador in 2019, when we were both pursuing our master’s degrees at UFBA. Some time later, our paths crossed again and we started seeing each other.",
+      "We met in the halls of the Federal University of Bahia. Who would have thought that mathematics would build a bridge between Minas Gerais and Bahia? Since then, our story has been shaped by reunions, longing, changes and many lessons.",
 
     historiaTexto2:
-      "Since he was more reserved, I was the one who took the initiative for our first kiss. In return, he was the first to say “I love you.” After a brief detour, we started dating and, since then, we have continued building our story together. Now, it is time to celebrate a new chapter: our wedding.",
+      "Distance was not always easy, but through every challenge, we grew together and chose to stay. Because even when the miles kept us apart, our love was always greater.",
+
+    historiaTexto3:
+      "Now, the time has come to close that distance for good and fulfill one of our greatest dreams: building a life side by side. After all, love always finds a way — and ours has led us to marriage.",
 
     nossasFotosTitulo: "Our photos",
     nossasFotosTexto:
