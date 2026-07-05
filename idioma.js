@@ -48,7 +48,6 @@ const traducoes = {
     pixTitulo: "Outra forma de nos presentear",
     pixTexto:
       "Cada gesto de carinho torna esse momento ainda mais especial para nós. Escolha a opção que preferir e escaneie o QR Code pelo aplicativo do seu banco.", 
-    pixPresente: "Presente por PIX",
     pixValorLivre: "Qualquer valor",
     pixAguardando: "QR Code será adicionado em breve.",
     pixEscanear: "Escaneie pelo aplicativo do seu banco.",
@@ -146,7 +145,6 @@ const traducoes = {
     pixTitulo: "Another way to give us a gift",
     pixTexto:
       "Every gesture of affection makes this moment even more special to us. Choose the option you prefer and scan the QR Code using your banking app.",
-    pixPresente: "PIX gift",
     pixValorLivre: "Any amount",
     pixAguardando: "The QR Code will be added soon.",
     pixEscanear: "Scan it using your banking app.",     
