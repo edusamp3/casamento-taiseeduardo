@@ -416,13 +416,6 @@
     </a>
 
     <a
-      href="#fotos-casal"
-      data-i18n="menuNossasFotos"
-    >
-      Nossas fotos
-    </a>
-
-    <a
       href="#fotos-casamento"
       data-i18n="menuFotosCasamento"
     >
@@ -456,15 +449,15 @@
       Taís & Eduardo
     </div>
 
-    <h1 data-i18n="galeriaTitulo">
-      Galeria de fotos
+    <h1 data-i18n="fotosCasamentoTitulo">
+      Fotos do casamento
     </h1>
 
     <div
       class="subtitle"
       data-i18n="galeriaSubtitulo"
     >
-      Um espaço para guardar nossas lembranças antes e depois do casamento.
+      Um espaço para guardar as lembranças do nosso grande dia.
     </div>
 
     <a
@@ -477,32 +470,6 @@
   </header>
 
   <main>
-    <section id="fotos-casal">
-      <div class="container">
-        <h2 data-i18n="nossasFotosTitulo">
-          Nossas fotos
-        </h2>
-
-        <p data-i18n="nossasFotosTexto">
-          Algumas lembranças nossas antes do grande dia.
-        </p>
-
-        <div
-          id="galeriaCasal"
-          class="gallery"
-        ></div>
-
-        <div
-          id="mensagemCasal"
-          class="empty-message"
-          style="display: none;"
-          data-i18n="semFotosCasal"
-        >
-          As fotos do casal ainda não foram adicionadas.
-        </div>
-      </div>
-    </section>
-
     <section id="fotos-casamento">
       <div class="container">
         <h2 data-i18n="fotosCasamentoTitulo">
@@ -634,13 +601,6 @@
           );
         });
     }
-
-    carregarGaleria(
-      "fotos-casal.json",
-      "galeriaCasal",
-      "mensagemCasal",
-      "Foto de Taís e Eduardo"
-    );
 
     carregarGaleria(
       "fotos-casamento.json",
