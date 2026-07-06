@@ -52,12 +52,11 @@ const traducoes = {
     pixAguardando: "QR Code será adicionado em breve.",
     pixEscanear: "Escaneie pelo aplicativo do seu banco.",
 
-    fotosTitulo: "Fotos",
-    fotosTexto:
-      "Reunimos aqui algumas fotos nossas e, depois do casamento, também vamos guardar os registros oficiais desse dia.",
-    lembrancasTitulo: "Nossas lembranças",
-    lembrancasTexto:
-      "Clique abaixo para acessar a galeria com nossas fotos e, em breve, as fotos do casamento.",
+    fotosTitulo: "Fotos do casamento",
+    fotosTexto: "Depois do nosso grande dia, reuniremos aqui os registros desse momento tão especial.",
+    lembrancasTitulo: "Fotos do nosso grande dia",
+    lembrancasTexto: "Assim que as fotos estiverem prontas, elas estarão disponíveis nesta galeria para revivermos esse momento com vocês.",
+    galeriaBotao: "Ver fotos do casamento",
     galeriaBotao: "Ver galeria de fotos",
 
     informacoesTitulo: "Informações importantes",
@@ -151,13 +150,11 @@ const traducoes = {
     pixAguardando: "The QR Code will be added soon.",
     pixEscanear: "Scan it using your banking app.",     
 
-    fotosTitulo: "Photos",
-    fotosTexto:
-      "We have gathered some of our photos here and, after the wedding, we will also keep the official photos from that day.",
-    lembrancasTitulo: "Our memories",
-    lembrancasTexto:
-      "Click below to open the gallery with our photos and, soon, the wedding photos.",
-    galeriaBotao: "View photo gallery",
+    fotosTitulo: "Wedding photos",
+    fotosTexto: "After our big day, we will gather here the photos of this very special moment.",
+    lembrancasTitulo: "Photos from our big day",
+    lembrancasTexto: "As soon as the photos are ready, they will be available in this gallery so we can relive this moment with you.",
+    galeriaBotao: "View wedding photos",
 
     informacoesTitulo: "Important information",
     informacoesTexto1:
