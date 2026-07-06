@@ -37,7 +37,7 @@ const traducoes = {
       "A sua presença nesse momento tão especial já é o nosso maior presente. Mas, para quem quiser nos presentear, preparamos uma lista com algumas sugestões escolhidas com muito carinho para a nossa nova fase.",
     presentesTexto2:
       "Primeiro, consulte a lista para conhecer nossas sugestões, acessar os links de referência e conferir quais presentes ainda estão disponíveis.",
-    enderecoPresentes: "Caso queira nos presentear com algum item da nossa lista, fale conosco para solicitar o endereço de entrega.",
+    enderecoPresentes: "Caso queira nos presentear com algum item da nossa lista, o presente pode ser enviado para o endereço: Av. Xavantes, nº 502, Vila Pérola, Contagem - MG. CEP: 32110-100",
     presentesBotao: "Ver lista de presentes",
 
     escolhaTitulo: "Já escolheu o presente?",
@@ -134,7 +134,7 @@ const traducoes = {
       "Your presence on this special day is already the greatest gift we could receive. Still, for those who would like to give us something, we have prepared a list of suggestions chosen with great care for this new chapter of our lives.",
     presentesTexto2:
       "First, check the list to see our suggestions, open the reference links and find out which gifts are still available.",
-    enderecoPresentes: "If you would like to give us an item from our gift list, please contact us for the delivery address.",
+    enderecoPresentes: "If you would like to give us an item from our gift list, it can be sent to the following address: Av. Xavantes, 502, Vila Pérola, Contagem - MG. CEP 32110-100",
     presentesBotao: "View gift list",
 
     escolhaTitulo: "Already chosen a gift?",
