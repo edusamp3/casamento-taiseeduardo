@@ -900,6 +900,72 @@
         line-height: 1.6;
       }
     }
+
+    /* LOCALIZAÇÃO E MAPA */
+
+    .localizacao-card {
+      max-width: 760px;
+      margin: 34px auto 0;
+      padding: 26px;
+
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+    }
+
+    .localizacao-card h3 {
+      margin: 0 0 10px;
+
+      font-size: 27px;
+      font-weight: normal;
+    }
+
+    .local-nome {
+      margin-bottom: 4px;
+
+      color: var(--text);
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .local-endereco {
+      margin-bottom: 22px;
+
+      color: var(--soft-text);
+      font-size: 17px;
+      line-height: 1.5;
+    }
+
+    .mapa-embed {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+
+      overflow: hidden;
+
+      border: 1px solid var(--line);
+      border-radius: 18px;
+    }
+
+    .mapa-embed iframe {
+      display: block;
+
+      width: 100%;
+      height: 100%;
+
+      border: 0;
+    }
+
+    @media (max-width: 600px) {
+      .localizacao-card {
+        padding: 20px 16px;
+        border-radius: 20px;
+      }
+
+      .mapa-embed {
+        aspect-ratio: 4 / 3;
+        border-radius: 15px;
+      }
+    }
   </style>
 
 </head>
@@ -1448,10 +1514,47 @@
         </p>
 
         <p data-i18n="informacoesTexto2">
-          Todas as informações sobre o horário, o local e os demais detalhes do
-          nosso casamento estarão no convite virtual. Lá, você poderá consultar
-          tudo com calma sempre que precisar.
+          A cerimônia e a festa acontecerão no mesmo local, no Clube Portal de
+          Arembepe. Abaixo, você encontra o endereço e o mapa para chegar com
+          mais facilidade.
         </p>
+
+        <div class="localizacao-card">
+          <h3 data-i18n="localizacaoTitulo">
+            Localização
+          </h3>
+
+          <p class="local-nome">
+            Clube Portal de Arembepe
+          </p>
+
+          <p
+            class="local-endereco"
+            data-i18n="localizacaoEndereco"
+          >
+            Abrantes, Camaçari - BA, 42830-474
+          </p>
+
+          <div class="mapa-embed">
+            <iframe
+              src="https://www.google.com/maps?q=Clube+Portal+de+Arembepe,+Abrantes,+Cama%C3%A7ari,+BA,+42830-474&output=embed"
+              title="Mapa do Clube Portal de Arembepe"
+              loading="lazy"
+              allowfullscreen
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <a
+            class="button secondary"
+            href="https://maps.app.goo.gl/vmE1sD2PfXLBfevK8"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="abrirGoogleMaps"
+          >
+            Abrir no Google Maps
+          </a>
+        </div>
       </div>
     </section>
   </main>

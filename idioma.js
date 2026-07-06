@@ -63,8 +63,10 @@ const traducoes = {
     informacoesTitulo: "Informações importantes",
     informacoesTexto1:
       "Este site é destinado aos nossos convidados. Pedimos que o link não seja compartilhado fora da lista de convidados.",
-    informacoesTexto2:
-      "Todas as informações sobre o horário, o local e os demais detalhes do nosso casamento estarão no convite virtual. Lá, você poderá consultar tudo com calma sempre que precisar.",
+    informacoesTexto2: "A cerimônia e a festa acontecerão no mesmo local, no Clube Portal de Arembepe. Abaixo, você encontra o endereço e o mapa para chegar com mais facilidade.",
+    localizacaoTitulo: "Localização",
+    localizacaoEndereco: "Abrantes, Camaçari - BA, 42830-474",
+    abrirGoogleMaps: "Abrir no Google Maps",
 
     galeriaTitulo: "Galeria de fotos",
     galeriaSubtitulo:
@@ -160,8 +162,10 @@ const traducoes = {
     informacoesTitulo: "Important information",
     informacoesTexto1:
       "This website is intended for our guests. Please do not share the link with anyone outside the guest list.",
-    informacoesTexto2:
-      "All information about the time, venue and other details of our wedding will be included in the digital invitation. You can check it whenever you need.",
+    informacoesTexto2: "The ceremony and reception will take place at the same venue, Clube Portal de Arembepe. Below, you can find the address and map to help you get there.",
+    localizacaoTitulo: "Location",
+    localizacaoEndereco: "Abrantes, Camaçari - Bahia, 42830-474, Brazil",
+    abrirGoogleMaps: "Open in Google Maps",
 
     galeriaTitulo: "Photo gallery",
     galeriaSubtitulo:
